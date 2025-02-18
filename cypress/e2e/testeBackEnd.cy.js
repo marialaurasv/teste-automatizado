@@ -1,6 +1,6 @@
 describe('Testes BackEnd no GitHub', () => {
     const token = 'SEU_TOKEN_AQUI'; //INSIRA SEU TOKEN DE ACESSO AQUI
-    const usuario = 'marialaurasv';  
+    const usuario = 'SEU_USUARIO_AQUI'; //INSIRA SEU USUARIO DO GITHUB AQUI  
     const repoName = 'teste-automatizado-narwal';
     let issueNumber;
 
