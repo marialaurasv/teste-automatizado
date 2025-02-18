@@ -4,8 +4,8 @@ Maria Laura dos Santos Vieira
 O Framework escolhido foi o Cypress, visto que já possuo conhecimento sobre e acredito ser o mais prático para testes de FrondEnd e API.
 
 **Testes FrontEnd**  
-	**Cenário 1**   
-	Feature: Solicitação de demonstração   
+**Cenário 1**   
+Feature: Solicitação de demonstração   
 Scenario: Envio de solicitação de demonstração com sucesso   
 Dado que o usuário acessa a página de solicitação de demonstração   
 Quando ele preenche corretamente todos os campos obrigatórios do formulário   
@@ -25,19 +25,16 @@ Então o sistema deve redirecioná-lo para a página da matéria selecionada
 	Este repositório contém os testes automatizados para a API do GitHub, utilizando o framework Cypress validar a criação, consulta e exclusão de repositório e issue.
 
 **Requisitos**
-
 - Node.js instalado  
 - Cypress instalado  
 - Conta no GitHub
 
+**Download e Configuração**  
+	**1 \-** Clone o repositório:   
+		git clone https://github.com/marialaurasv/teste-automatizado.git  
+	**2 \-** Acesse a pasta do projeto  
+	**3 \-** Instale as dependências na pasta do projeto com o comando abaixo:  
+		npm install cypress
 
-	**Download e Configuração**  
-		**1 \-** Clone o repositório:   
-			git clone https://github.com/marialaurasv/teste-automatizado-narwal  
-		**2 \-** Acesse a pasta do projeto  
-			cd teste-automatizado-narwal  
-		**3 \-** Instale as dependências:  
-			npm install cypress
-
-	**Execução dos Testes**  
-		Para abrir a interface do Cypress, utilize o comando "npx cypress open” e selecione o arquivo testeBackEnd.cy.js na pasta e2e.
+**Execução dos Testes**  
+	Para abrir a interface do Cypress, utilize o comando "npx cypress open” e selecione o arquivo testeBackEnd.cy.js na pasta e2e.
