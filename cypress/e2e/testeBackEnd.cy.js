@@ -1,5 +1,5 @@
 describe('Testes BackEnd no GitHub', () => {
-    const token = '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'; 
+    const token = 'SEU_TOKEN_AQUI'; //INSIRA SEU TOKEN DE ACESSO AQUI
     const usuario = 'marialaurasv';  
     const repoName = 'teste-automatizado-narwal';
     let issueNumber;
