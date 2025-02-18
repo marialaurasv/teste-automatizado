@@ -56,6 +56,25 @@ Este repositório contém os testes automatizados para a **API do GitHub**, util
    npm install cypress
    ```
 
+---
+
+## Gerando um Token de Acesso no GitHub
+Para autenticar a API do GitHub, é necessário gerar um **Personal Access Token**. Siga os passos abaixo:
+
+1. Acesse [GitHub - Configurações de Token](https://github.com/settings/tokens)
+2. Clique em **Generate new token**
+3. Defina um nome para o token e selecione a duração desejada
+4. Marque as permissões necessárias, como:
+   - `repo` (para acessar repositórios públicos e privados)
+   - `admin:repo_hook` (para gerenciar webhooks, se necessário)
+   - `issues` (para manipular issues)
+5. Clique em **Generate token** e copie o valor gerado
+6. Use esse token na autenticação da API do GitHub:
+   ```bash
+   Altere a variável 'SEU_TOKEN_AQUI' no arquivo testeBackEnd.cy.js
+   ```
+---
+
 ### Execução dos Testes
 Para abrir a interface do Cypress, utilize o seguinte comando:
 ```bash
